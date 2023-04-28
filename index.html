@@ -8,7 +8,55 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Barış ERKUŞ</h1>
-    <h2>Eğitimler</h2>
+  <div class="upside">
+    <nav class="navbar navbar-expand-lg nav-bg"><!--yandaki nav-bg classı bizim navbarın rengini css kısmında değiştirmemiz için kullandığımız bir classtır. -->
+      <div class="container">
+        <img id="logo-size" src="img/AdobeStock_571311775_Preview.png" alt="logo">
+        <!--img-fluid classı responsive olmasını sağlıyor.-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!--ms-auto bu kısım menüyü ortalıyor.-->
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item d-flex"> <!--buradaki d-flex yapısı oluşturulan <span class="brace">|</span> ayraçları iconların yanlarına almasını sağlıyor.-->
+              <!--alt satırdaki iconları Font Awesome kısmından aldım.-->
+              <a class="nav-link active" aria-current="page" href="/egitim_satis_sitesi/"><i class="fa-solid fa-house icon"></i>Anasayfa</a>
+              <span class="brace">|</span>
+            </li>
+            <li class="nav-item d-flex">
+              <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-info icon"></i>Hakkımızda</a>
+              <span class="brace">|</span>
+            </li>
+            <li class="nav-item d-flex">
+              <a class="nav-link active" aria-current="page" href="egitimler.html"><i class="fa-solid fa-graduation-cap icon"></i>Eğitimler</a>
+              <span class="brace">|</span>
+            </li>
+            <li class="nav-item d-flex">
+              <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-cart-shopping icon"></i>Sepet</a>
+              <span class="brace">|</span>
+            </li>
+            <li class="nav-item d-flex">
+              <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-map-pin icon"></i>İletişim</a>
+              <span class="brace">|</span>
+            </li>
+            <li class="nav-item d-flex">
+              <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-people-group icon"></i>Eğitmenler</a>
+            </li>
+          </ul>
+        </div>
+      </div> 
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4" id="main_Contant">
+          <h2>Geleceği Bizimle Kodla</h2>
+          <!--alt satır bir çizgi oluşturup sola kaydırıyor-->
+          <hr width="300" class="mb-0">
+          <p>Biz, yazılımın gücüne inanan bir ekibiz ve bu gücü dünyanın dört bir yanındaki insanlarla paylaşmak istiyoruz. Yazılım eğitimini herkesin erişebileceği hale getirerek, herkesin hayatını kolaylaştırmaya ve işlerini geliştirmeye yardımcı olmak istiyoruz.</p>
+        </div>
+      </div>
+    </div>
+  </div> 
 </body>
 </html>
