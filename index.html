@@ -1,71 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Eğitim Satış</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="upside">
-    <nav class="navbar navbar-expand-lg nav-bg"><!--yandaki nav-bg classı bizim navbarın rengini css kısmında değiştirmemiz için kullandığımız bir classtır. -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="upside">
+      <nav class="navbar navbar-expand-lg nav-bg">
+        <!--yandaki nav-bg classı bizim navbarın rengini css kısmında değiştirmemiz için kullandığımız bir classtır. -->
+        <div class="container">
+          <img
+            id="logo-size"
+            src="img/AdobeStock_571311775_Preview.png"
+            alt="logo"
+          />
+          <!--img-fluid classı responsive olmasını sağlıyor.-->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!--ms-auto bu kısım menüyü ortalıyor.-->
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item d-flex">
+                <!--buradaki d-flex yapısı oluşturulan <span class="brace">|</span> ayraçları iconların yanlarına almasını sağlıyor.-->
+                <!--alt satırdaki iconları Font Awesome kısmından aldım.-->
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/egitim_satis_sitesi/"
+                  ><i class="fa-solid fa-house icon"></i>Anasayfa</a
+                >
+                <span class="brace">|</span>
+              </li>
+              <li class="nav-item d-flex">
+                <a class="nav-link active" aria-current="page" href="#"
+                  ><i class="fa-solid fa-info icon"></i>Hakkımızda</a
+                >
+                <span class="brace">|</span>
+              </li>
+              <li class="nav-item d-flex">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="egitimler.html"
+                  ><i class="fa-solid fa-graduation-cap icon"></i>Eğitimler</a
+                >
+                <span class="brace">|</span>
+              </li>
+              <li class="nav-item d-flex">
+                <a class="nav-link active" aria-current="page" href="#"
+                  ><i class="fa-solid fa-cart-shopping icon"></i>Sepet</a
+                >
+                <span class="brace">|</span>
+              </li>
+              <li class="nav-item d-flex">
+                <a class="nav-link active" aria-current="page" href="#"
+                  ><i class="fa-solid fa-map-pin icon"></i>İletişim</a
+                >
+                <span class="brace">|</span>
+              </li>
+              <li class="nav-item d-flex">
+                <a class="nav-link active" aria-current="page" href="#"
+                  ><i class="fa-solid fa-people-group icon"></i>Eğitmenler</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
       <div class="container">
-        <img id="logo-size" src="img/AdobeStock_571311775_Preview.png" alt="logo">
-        <!--img-fluid classı responsive olmasını sağlıyor.-->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <!--ms-auto bu kısım menüyü ortalıyor.-->
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item d-flex"> <!--buradaki d-flex yapısı oluşturulan <span class="brace">|</span> ayraçları iconların yanlarına almasını sağlıyor.-->
-              <!--alt satırdaki iconları Font Awesome kısmından aldım.-->
-              <a class="nav-link active" aria-current="page" href="/egitim_satis_sitesi/"><i class="fa-solid fa-house icon"></i>Anasayfa</a>
-              <span class="brace">|</span>
-            </li>
-            <li class="nav-item d-flex">
-              <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-info icon"></i>Hakkımızda</a>
-              <span class="brace">|</span>
-            </li>
-            <li class="nav-item d-flex">
-              <a class="nav-link active" aria-current="page" href="egitimler.html"><i class="fa-solid fa-graduation-cap icon"></i>Eğitimler</a>
-              <span class="brace">|</span>
-            </li>
-            <li class="nav-item d-flex">
-              <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-cart-shopping icon"></i>Sepet</a>
-              <span class="brace">|</span>
-            </li>
-            <li class="nav-item d-flex">
-              <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-map-pin icon"></i>İletişim</a>
-              <span class="brace">|</span>
-            </li>
-            <li class="nav-item d-flex">
-              <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-people-group icon"></i>Eğitmenler</a>
-            </li>
-          </ul>
-        </div>
-      </div> 
-    </nav>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4" id="main_Contant">
-          <h2>Geleceği Bizimle Kodla</h2>
-          <!--alt satır bir çizgi oluşturup sola kaydırıyor-->
-          <hr width="300" class="mb-0">
-          <p>Biz, yazılımın gücüne inanan bir ekibiz ve bu gücü dünyanın dört bir yanındaki insanlarla paylaşmak istiyoruz. Yazılım eğitimini herkesin erişebileceği hale getirerek, herkesin hayatını kolaylaştırmaya ve işlerini geliştirmeye yardımcı olmak istiyoruz.</p>
+        <div class="row">
+          <div class="col-md-4" id="main_Contant">
+            <h2>Geleceği Bizimle Kodla</h2>
+            <!--alt satır bir çizgi oluşturup sola kaydırıyor-->
+            <hr width="300" class="mb-0" />
+            <p>
+              Biz, yazılımın gücüne inanan bir ekibiz ve bu gücü dünyanın dört
+              bir yanındaki insanlarla paylaşmak istiyoruz. Yazılım eğitimini
+              herkesin erişebileceği hale getirerek, herkesin hayatını
+              kolaylaştırmaya ve işlerini geliştirmeye yardımcı olmak istiyoruz.
+            </p>
+          </div>
         </div>
       </div>
+      <div class="container">
+        <h3 class="h3l">Hakkımızda</h3>
+        <div class="row" id="aboutWrite">
+          <div class="col-md-12 col-12">
+            <p>
+              2023 yılında açılan yeni bir yazılım eğitim sitesi, teknolojinin
+              hızla geliştiği ve dijital dünyanın önem kazandığı bu çağda
+              oldukça önemli bir girişim olarak karşınıza çıkıyoruz. Bu sebeple
+              size eğitim yanı sıra gelecek kurma fırsatı veriyoruz. Dünyanın
+              yenilikçi yapısına ayak uydurmanızı sağlıyoruz. Bütün üyelerimize
+              en son teknoloji ve gelişmeler ile güncel tuttuğumuz gibi
+              geçmişdeki önemli teknolojiler ile de sizleri yazılım dünyasının
+              aranan yüzleri haline getirmeyi planlıyoruz.
+            </p>
+            <img src="img/banner1.jpg" alt="logo" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+      <section id="education">
+        <div class="container">
+          <h3 class="educationTitle">Eğitimler</h3>
+          <!--alt satırdaki div yapısının içine own yapımızı kullana bilmek için kütüphaneleri dahil ettim.-->
+          <div class="owl-carousel own-theme pt-4">
+            <!--alttaki her satırda "data-merge=1.5" özelliğini kullandım çünkü cardların own yapısındaki şekle oturması gerekiyor. kullandığım fotoğrafların yapısı own yapısına büyük geldi ve         ben bu sorunu böyle çözdüm -->
+            <div class="card" data-merge="1.5">
+              <a href="dersAnasayfa.html"
+                ><img src="img/r1.jpg" alt="logo" class="img-fluid"
+              /></a>
+              <h5 class="titleCard">HTML5 ve CSS3 Eğitimleri</h5>
+              <p class="cardp">sıfırdan ileri düzey eğitim serisi.</p>
+            </div>
+            <div class="card" data-merge="1.5">
+              <a href="dersAnasayfa.html"
+                ><img src="img/r2.jpg" alt="logo" class="img-fluid"
+              /></a>
+              <h5 class="titleCard">HTML5 ve CSS3 Eğitimleri</h5>
+              <p class="cardp">sıfırdan ileri düzey eğitim serisi.</p>
+            </div>
+            <div class="card" data-merge="1.5">
+              <a href="dersAnasayfa.html"
+                ><img src="img/r3.jpg" alt="logo" class="img-fluid"
+              /></a>
+              <h5 class="titleCard">HTML5 ve CSS3 Eğitimleri</h5>
+              <p class="cardp">sıfırdan ileri düzey eğitim serisi.</p>
+            </div>
+            <div class="card" data-merge="1.5">
+              <a href="dersAnasayfa.html"
+                ><img src="img/r4.jpg" alt="logo" class="img-fluid"
+              /></a>
+              <h5 class="titleCard">HTML5 ve CSS3 Eğitimleri</h5>
+              <p class="cardp">sıfırdan ileri düzey eğitim serisi.</p>
+            </div>
+            <div class="card" data-merge="1.5">
+              <a href="dersAnasayfa.html"
+                ><img src="img/r5.jpg" alt="logo" class="img-fluid"
+              /></a>
+              <h5 class="titleCard">HTML5 ve CSS3 Eğitimleri</h5>
+              <p class="cardp">sıfırdan ileri düzey eğitim serisi.</p>
+            </div>
+            <div class="card" data-merge="1.5">
+              <a href="dersAnasayfa.html"
+                ><img src="img/r6.jpg" alt="logo" class="img-fluid"
+              /></a>
+              <h5 class="titleCard">HTML5 ve CSS3 Eğitimleri</h5>
+              <p class="cardp">sıfırdan ileri düzey eğitim serisi.</p>
+            </div>
+            <div class="card" data-merge="1.5">
+              <a href="dersAnasayfa.html"
+                ><img src="img/r7.jpg" alt="logo" class="img-fluid"
+              /></a>
+              <h5 class="titleCard">HTML5 ve CSS3 Eğitimleri</h5>
+              <p class="cardp">sıfırdan ileri düzey eğitim serisi.</p>
+            </div>
+          </div>
+        </div>
+         
+      </section>
     </div>
-    <div class="container">
-      <h3 class="h3l">Hakkımızda</h3>
-      <div class="row" id="aboutWrite">
-        <div class="col-md-12 col-12">
-          <p>2023 yılında açılan yeni bir yazılım eğitim sitesi, teknolojinin hızla geliştiği ve dijital dünyanın önem kazandığı bu çağda oldukça önemli bir girişim olarak karşınıza çıkıyoruz. Bu sebeple size eğitim yanı sıra gelecek kurma fırsatı veriyoruz. Dünyanın yenilikçi yapısına ayak uydurmanızı sağlıyoruz. Bütün üyelerimize en son teknoloji ve gelişmeler ile güncel tuttuğumuz gibi geçmişdeki önemli teknolojiler ile de sizleri yazılım dünyasının aranan yüzleri haline getirmeyi planlıyoruz.</p> 
-          <img src="img/banner1.jpg" alt="logo" class="img-fluid">
-        </div>
-      </div>
-    </div>  
-  </div> 
-</body>
+  </body>
 </html>
