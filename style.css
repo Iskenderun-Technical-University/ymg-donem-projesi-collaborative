@@ -76,3 +76,19 @@ body{
 	/*alt satır yazı kalınlığını belirliyor*/
 	font-weight: 100;
 }
+span{
+	font-size: 50px;
+	margin-right: 7px;
+	line-height: 42px;
+	color:#003666;
+	font-weight: 600;
+	float:left;
+}
+#education{
+	padding-top: 100px;
+	background-color:rgba(122, 122, 122, 0.1056);
+	padding: 0px;
+	margin-top: 150px;
+	text-align: center;
+	height: 700px;
+}
