@@ -92,3 +92,16 @@ span{
 	text-align: center;
 	height: 700px;
 }
+
+.educationTitle{
+    padding-top: 50px;
+    font-size: 50px;
+}
+.titleCard{
+    font-size: 25px;
+    color:#003666;
+    padding: 20px;
+}
+.cardp{
+    color:#888;
+}
