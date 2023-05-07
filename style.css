@@ -105,3 +105,21 @@ span{
 .cardp{
     color:#888;
 }
+
+/*alt satırdaki cardın hover özelliği cardların üzerine 
+mouse gelince 1px siyah laşmasını sağlıyor.*/
+.card:hover{
+	border: 1px solid black;
+}
+#educator{
+	background-color:gray;
+	padding:50px;
+	text-align: center;
+}
+#educatorh3{
+	color:black;
+}
+/*alttaki class fotoğrafı ovalleştirir*/
+.oval{
+	border-radius: 50%;
+}
