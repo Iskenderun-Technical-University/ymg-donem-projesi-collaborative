@@ -123,3 +123,14 @@ mouse gelince 1px siyah laşmasını sağlıyor.*/
 .oval{
 	border-radius: 50%;
 }
+.educatorName{
+	color:white;
+	font-size: 25px;
+	/*alt satır bizim alttaki yazıdan isim kısmımızın 12 px boşluk bırakmamızı sağlıyor*/
+	margin-bottom:12px;
+}
+/*alt class bizim yazımız boyunu ve rengi değiştirdik*/
+.educatorp{
+ color:black;
+ font-size:18px ;
+}
