@@ -134,3 +134,18 @@ mouse gelince 1px siyah laşmasını sağlıyor.*/
  color:black;
  font-size:18px ;
 }
+
+.social{
+    color:black;
+    /*alt satır bizim ikonlarımızın 1px ve beyaz bir kutunun içine girmesini sağlıyor*/
+    border: 2px solid black;
+    /*alt satır bizim kutularımızın içinde 10px'lik bir iç boşluk yaratır.*/
+    padding: 10px;
+    width: 50px;/*bu satır bizim kuru genişliğini arttırır.*/
+    border-radius: 5px;/*bu satır kutularımıza ovellik katar*/
+    margin:5px 10px;
+}
+/*alttaki hover özelliği mouse ile ikonların üzerine gelindiğindeki özellikleri ile oynu
+.social:hover{
+	background-color: #888;
+}
