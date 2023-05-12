@@ -148,4 +148,11 @@ mouse gelince 1px siyah laşmasını sağlıyor.*/
 /*alttaki hover özelliği mouse ile ikonların üzerine gelindiğindeki özellikleri ile oynu
 .social:hover{
 	background-color: #888;
+}*/
+
+#communication{
+	background:url("../img/colorful-abstract-universe-textured-background.jpg");
+	background-size: cover;
+	padding: 50px;
+	height: auto;
 }
