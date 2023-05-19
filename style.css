@@ -145,14 +145,17 @@ mouse gelince 1px siyah laşmasını sağlıyor.*/
     border-radius: 5px;/*bu satır kutularımıza ovellik katar*/
     margin:5px 10px;
 }
-/*alttaki hover özelliği mouse ile ikonların üzerine gelindiğindeki özellikleri ile oynu
+/*alttaki hover özelliği mouse ile ikonların üzerine gelindiğindeki özellikleri ile oynu*/
 .social:hover{
 	background-color: #888;
-}*/
-
+}
 #communication{
 	background:url("../img/colorful-abstract-universe-textured-background.jpg");
 	background-size: cover;
 	padding: 50px;
-	height: auto;
+	height: auto;
+}
+#hColor{
+	color: white;
+	text-align: center;
 }
