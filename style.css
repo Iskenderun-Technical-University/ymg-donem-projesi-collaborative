@@ -159,3 +159,14 @@ mouse gelince 1px siyah laşmasını sağlıyor.*/
 	color: white;
 	text-align: center;
 }
+
+#opaqueRow{
+    margin-top: 50px;
+	/*alt satır bizim iletişim kısmını opaklaştırıyor.*/
+    background: rgba(255, 255, 255, 0.4);
+}
+#rowInformation{
+	margin-top: 70px;
+	padding-top: 50px;
+	background: rgba(255, 255, 255, 0.8);
+}
