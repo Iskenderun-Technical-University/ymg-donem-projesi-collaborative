@@ -233,3 +233,16 @@ mouse gelince 1px siyah laşmasını sağlıyor.*/
 	height: 100%;
 	border: none;
 }
+/*altdaki yapı bizim haritamızın responsive bir yapı kazanmasını sağlamak.*/
+@media(max-width: 991px){
+	.contact-form{
+		margin-bottom: 30px;
+	}
+	.map-area{
+		width: 100%;
+		height: 400px;
+	}
+	.nav-bg{
+		background-color:rgba(122, 122, 122, 0.96);
+	}
+}
