@@ -246,3 +246,10 @@ mouse gelince 1px siyah laşmasını sağlıyor.*/
 		background-color:rgba(122, 122, 122, 0.96);
 	}
 }
+
+/*alttaki yapı ile menü kısmındaki dikey çizgilerin bizim hambürger butonumuzda görünmemesi için yazdığım kod.*/
+@media screen and (max-width: 991px){
+	.brace{
+		display:none;
+	}
+}
