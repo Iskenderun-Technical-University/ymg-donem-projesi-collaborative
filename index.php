@@ -2,7 +2,6 @@
   <?php
     include("inc/head.php");
   ?> 
-  <link rel="stylesheet" href="./css/style.css">
     <div class="container">
       <div class="row">
         <div class="col-md-4" id="main_Contant">
